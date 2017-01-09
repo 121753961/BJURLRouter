@@ -23,11 +23,6 @@
     
     NSLog(@"%@---%@---%@---%@",url.scheme,url.host,url.path,url.baseURL);
     
-    
-    NSLog(@"kfsfjklsafa");
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 
