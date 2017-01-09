@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0080B6501E1B8A0500C11544 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B64F1E1B8A0500C11544 /* main.m */; };
+		0080B6531E1B8A0500C11544 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6521E1B8A0500C11544 /* AppDelegate.m */; };
+		0080B6561E1B8A0500C11544 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6551E1B8A0500C11544 /* ViewController.m */; };
+		0080B6591E1B8A0500C11544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0080B6571E1B8A0500C11544 /* Main.storyboard */; };
+		0080B65B1E1B8A0500C11544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0080B65A1E1B8A0500C11544 /* Assets.xcassets */; };
+		0080B65E1E1B8A0500C11544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0080B65C1E1B8A0500C11544 /* LaunchScreen.storyboard */; };
+		0080B6691E1B8A0500C11544 /* BJURLRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6681E1B8A0500C11544 /* BJURLRouterTests.m */; };
+		0080B6741E1B8A0500C11544 /* BJURLRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6731E1B8A0500C11544 /* BJURLRouterUITests.m */; };
+		0080B6831E1B8D9100C11544 /* BJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6821E1B8D9100C11544 /* BJURLRouter.m */; };
+		0080B6851E1B94E300C11544 /* BJURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0080B6841E1B94E300C11544 /* BJURLRouter.plist */; };
+		0080B6881E1B95C700C11544 /* BJUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B6871E1B95C700C11544 /* BJUserViewController.m */; };
+		0080B68B1E1B9AF700C11544 /* BJURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B68A1E1B9AF700C11544 /* BJURLNavgation.m */; };
+		008A612C1E20D624006B562E /* UIViewController+BJURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A612B1E20D624006B562E /* UIViewController+BJURLRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0080B6651E1B8A0500C11544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0080B6431E1B8A0400C11544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0080B64A1E1B8A0400C11544;
+			remoteInfo = BJURLRouter;
+		};
+		0080B6701E1B8A0500C11544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0080B6431E1B8A0400C11544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0080B64A1E1B8A0400C11544;
+			remoteInfo = BJURLRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0080B64B1E1B8A0500C11544 /* BJURLRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJURLRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0080B64F1E1B8A0500C11544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0080B6511E1B8A0500C11544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0080B6521E1B8A0500C11544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0080B6541E1B8A0500C11544 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0080B6551E1B8A0500C11544 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0080B6581E1B8A0500C11544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0080B65A1E1B8A0500C11544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0080B65D1E1B8A0500C11544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0080B65F1E1B8A0500C11544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0080B6641E1B8A0500C11544 /* BJURLRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJURLRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0080B6681E1B8A0500C11544 /* BJURLRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJURLRouterTests.m; sourceTree = "<group>"; };
+		0080B66A1E1B8A0500C11544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0080B66F1E1B8A0500C11544 /* BJURLRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJURLRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0080B6731E1B8A0500C11544 /* BJURLRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJURLRouterUITests.m; sourceTree = "<group>"; };
+		0080B6751E1B8A0500C11544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0080B6811E1B8D9100C11544 /* BJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJURLRouter.h; sourceTree = "<group>"; };
+		0080B6821E1B8D9100C11544 /* BJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJURLRouter.m; sourceTree = "<group>"; };
+		0080B6841E1B94E300C11544 /* BJURLRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BJURLRouter.plist; sourceTree = "<group>"; };
+		0080B6861E1B95C700C11544 /* BJUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJUserViewController.h; sourceTree = "<group>"; };
+		0080B6871E1B95C700C11544 /* BJUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJUserViewController.m; sourceTree = "<group>"; };
+		0080B6891E1B9AF700C11544 /* BJURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJURLNavgation.h; sourceTree = "<group>"; };
+		0080B68A1E1B9AF700C11544 /* BJURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJURLNavgation.m; sourceTree = "<group>"; };
+		008A612A1E20D624006B562E /* UIViewController+BJURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BJURLRouter.h"; sourceTree = "<group>"; };
+		008A612B1E20D624006B562E /* UIViewController+BJURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BJURLRouter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0080B6481E1B8A0400C11544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B6611E1B8A0500C11544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B66C1E1B8A0500C11544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0080B6421E1B8A0400C11544 = {
+			isa = PBXGroup;
+			children = (
+				0080B64D1E1B8A0500C11544 /* BJURLRouter */,
+				0080B6671E1B8A0500C11544 /* BJURLRouterTests */,
+				0080B6721E1B8A0500C11544 /* BJURLRouterUITests */,
+				0080B64C1E1B8A0500C11544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0080B64C1E1B8A0500C11544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0080B64B1E1B8A0500C11544 /* BJURLRouter.app */,
+				0080B6641E1B8A0500C11544 /* BJURLRouterTests.xctest */,
+				0080B66F1E1B8A0500C11544 /* BJURLRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0080B64D1E1B8A0500C11544 /* BJURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				0080B6811E1B8D9100C11544 /* BJURLRouter.h */,
+				0080B6821E1B8D9100C11544 /* BJURLRouter.m */,
+				0080B6891E1B9AF700C11544 /* BJURLNavgation.h */,
+				0080B68A1E1B9AF700C11544 /* BJURLNavgation.m */,
+				008A612A1E20D624006B562E /* UIViewController+BJURLRouter.h */,
+				008A612B1E20D624006B562E /* UIViewController+BJURLRouter.m */,
+				0080B6841E1B94E300C11544 /* BJURLRouter.plist */,
+				0080B6861E1B95C700C11544 /* BJUserViewController.h */,
+				0080B6871E1B95C700C11544 /* BJUserViewController.m */,
+				0080B6511E1B8A0500C11544 /* AppDelegate.h */,
+				0080B6521E1B8A0500C11544 /* AppDelegate.m */,
+				0080B6541E1B8A0500C11544 /* ViewController.h */,
+				0080B6551E1B8A0500C11544 /* ViewController.m */,
+				0080B6571E1B8A0500C11544 /* Main.storyboard */,
+				0080B65A1E1B8A0500C11544 /* Assets.xcassets */,
+				0080B65C1E1B8A0500C11544 /* LaunchScreen.storyboard */,
+				0080B65F1E1B8A0500C11544 /* Info.plist */,
+				0080B64E1E1B8A0500C11544 /* Supporting Files */,
+			);
+			path = BJURLRouter;
+			sourceTree = "<group>";
+		};
+		0080B64E1E1B8A0500C11544 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0080B64F1E1B8A0500C11544 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0080B6671E1B8A0500C11544 /* BJURLRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0080B6681E1B8A0500C11544 /* BJURLRouterTests.m */,
+				0080B66A1E1B8A0500C11544 /* Info.plist */,
+			);
+			path = BJURLRouterTests;
+			sourceTree = "<group>";
+		};
+		0080B6721E1B8A0500C11544 /* BJURLRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0080B6731E1B8A0500C11544 /* BJURLRouterUITests.m */,
+				0080B6751E1B8A0500C11544 /* Info.plist */,
+			);
+			path = BJURLRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0080B64A1E1B8A0400C11544 /* BJURLRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0080B6781E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouter" */;
+			buildPhases = (
+				0080B6471E1B8A0400C11544 /* Sources */,
+				0080B6481E1B8A0400C11544 /* Frameworks */,
+				0080B6491E1B8A0400C11544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BJURLRouter;
+			productName = BJURLRouter;
+			productReference = 0080B64B1E1B8A0500C11544 /* BJURLRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0080B6631E1B8A0500C11544 /* BJURLRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0080B67B1E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouterTests" */;
+			buildPhases = (
+				0080B6601E1B8A0500C11544 /* Sources */,
+				0080B6611E1B8A0500C11544 /* Frameworks */,
+				0080B6621E1B8A0500C11544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0080B6661E1B8A0500C11544 /* PBXTargetDependency */,
+			);
+			name = BJURLRouterTests;
+			productName = BJURLRouterTests;
+			productReference = 0080B6641E1B8A0500C11544 /* BJURLRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0080B66E1E1B8A0500C11544 /* BJURLRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0080B67E1E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouterUITests" */;
+			buildPhases = (
+				0080B66B1E1B8A0500C11544 /* Sources */,
+				0080B66C1E1B8A0500C11544 /* Frameworks */,
+				0080B66D1E1B8A0500C11544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0080B6711E1B8A0500C11544 /* PBXTargetDependency */,
+			);
+			name = BJURLRouterUITests;
+			productName = BJURLRouterUITests;
+			productReference = 0080B66F1E1B8A0500C11544 /* BJURLRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0080B6431E1B8A0400C11544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJ;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KuangBing;
+				TargetAttributes = {
+					0080B64A1E1B8A0400C11544 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2QQCH2EWT7;
+						ProvisioningStyle = Automatic;
+					};
+					0080B6631E1B8A0500C11544 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0080B64A1E1B8A0400C11544;
+					};
+					0080B66E1E1B8A0500C11544 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0080B64A1E1B8A0400C11544;
+					};
+				};
+			};
+			buildConfigurationList = 0080B6461E1B8A0400C11544 /* Build configuration list for PBXProject "BJURLRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0080B6421E1B8A0400C11544;
+			productRefGroup = 0080B64C1E1B8A0500C11544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0080B64A1E1B8A0400C11544 /* BJURLRouter */,
+				0080B6631E1B8A0500C11544 /* BJURLRouterTests */,
+				0080B66E1E1B8A0500C11544 /* BJURLRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0080B6491E1B8A0400C11544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080B65E1E1B8A0500C11544 /* LaunchScreen.storyboard in Resources */,
+				0080B65B1E1B8A0500C11544 /* Assets.xcassets in Resources */,
+				0080B6591E1B8A0500C11544 /* Main.storyboard in Resources */,
+				0080B6851E1B94E300C11544 /* BJURLRouter.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B6621E1B8A0500C11544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B66D1E1B8A0500C11544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0080B6471E1B8A0400C11544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080B6831E1B8D9100C11544 /* BJURLRouter.m in Sources */,
+				0080B68B1E1B9AF700C11544 /* BJURLNavgation.m in Sources */,
+				0080B6561E1B8A0500C11544 /* ViewController.m in Sources */,
+				0080B6531E1B8A0500C11544 /* AppDelegate.m in Sources */,
+				0080B6881E1B95C700C11544 /* BJUserViewController.m in Sources */,
+				008A612C1E20D624006B562E /* UIViewController+BJURLRouter.m in Sources */,
+				0080B6501E1B8A0500C11544 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B6601E1B8A0500C11544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080B6691E1B8A0500C11544 /* BJURLRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0080B66B1E1B8A0500C11544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0080B6741E1B8A0500C11544 /* BJURLRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0080B6661E1B8A0500C11544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0080B64A1E1B8A0400C11544 /* BJURLRouter */;
+			targetProxy = 0080B6651E1B8A0500C11544 /* PBXContainerItemProxy */;
+		};
+		0080B6711E1B8A0500C11544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0080B64A1E1B8A0400C11544 /* BJURLRouter */;
+			targetProxy = 0080B6701E1B8A0500C11544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0080B6571E1B8A0500C11544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0080B6581E1B8A0500C11544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0080B65C1E1B8A0500C11544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0080B65D1E1B8A0500C11544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0080B6761E1B8A0500C11544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0080B6771E1B8A0500C11544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0080B6791E1B8A0500C11544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2QQCH2EWT7;
+				INFOPLIST_FILE = BJURLRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0080B67A1E1B8A0500C11544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2QQCH2EWT7;
+				INFOPLIST_FILE = BJURLRouter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0080B67C1E1B8A0500C11544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJURLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJURLRouter.app/BJURLRouter";
+			};
+			name = Debug;
+		};
+		0080B67D1E1B8A0500C11544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BJURLRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJURLRouter.app/BJURLRouter";
+			};
+			name = Release;
+		};
+		0080B67F1E1B8A0500C11544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJURLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJURLRouter;
+			};
+			name = Debug;
+		};
+		0080B6801E1B8A0500C11544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BJURLRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangbing.BJURLRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BJURLRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0080B6461E1B8A0400C11544 /* Build configuration list for PBXProject "BJURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080B6761E1B8A0500C11544 /* Debug */,
+				0080B6771E1B8A0500C11544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0080B6781E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080B6791E1B8A0500C11544 /* Debug */,
+				0080B67A1E1B8A0500C11544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0080B67B1E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080B67C1E1B8A0500C11544 /* Debug */,
+				0080B67D1E1B8A0500C11544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0080B67E1E1B8A0500C11544 /* Build configuration list for PBXNativeTarget "BJURLRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0080B67F1E1B8A0500C11544 /* Debug */,
+				0080B6801E1B8A0500C11544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0080B6431E1B8A0400C11544 /* Project object */;
+}
