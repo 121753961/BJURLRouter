@@ -11,6 +11,7 @@
 
 ## 1.配置
 1. 创建BJURLRouter.一个plist文件,文件夹中有,只要修改下就行了,大概的对应关系如下图所示
+![](http://upload-images.jianshu.io/upload_images/678972-a8720603a1f50771.png)
 
 2. 加载BJURLRouter文件数据
 
